@@ -28,7 +28,7 @@ ext {
     daggerAndroidVersion = '2.23.2'
     daggerAndroidCompilerVersion = '2.23.2'
     annotationsVersion = '1.0'
-    picassoVersion = '2.5.2'
+    glideVersion = '4.8.0'
 
     //Testing
     jUnitVersion = '4.12'
@@ -93,7 +93,7 @@ ext {
             lifeCycleCompiler              : "androidx.lifecycle:lifecycle-compiler:${lifeCycleVersion}",
             lifeCycleReactiveStreams       : "androidx.lifecycle:lifecycle-reactivestreams:${lifeCycleVersion}",
             lifeCycleCommonJava            : "androidx.lifecycle:lifecycle-common-java8:${lifeCycleVersion}",
-            picasso                        : "com.squareup.picasso:picasso:${picassoVersion}",
+            glide                          : "com.github.bumptech.glide:glide:${glideVersion}",
             roomRuntime                    : "androidx.room:room-runtime:${roomVersion}",
             roomCompiler                   : "androidx.room:room-compiler:${roomVersion}",
             roomCoroutines                 : "androidx.room:room-coroutines:${roomVersion}",

@@ -1,7 +1,9 @@
 package ar.com.mercadolibre.domain.model
 
+/**
+ * Created by Pablo Flores on 26/09/19.
+ */
 data class Shipping(
-
     val free_shipping: Boolean?,
     val mode: String?,
     val tags: List<String>?,

@@ -1,7 +1,9 @@
 package ar.com.mercadolibre.data.cloudentity.model
 
+/**
+ * Created by Pablo Flores on 26/09/19.
+ */
 data class ResultsEntity(
-
     val id: String?,
     val site_id: String?,
     val title: String?,

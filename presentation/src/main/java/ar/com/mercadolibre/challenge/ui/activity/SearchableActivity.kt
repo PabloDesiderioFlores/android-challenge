@@ -116,9 +116,9 @@ class SearchableActivity : DaggerAppCompatActivity() {
  */
 class ProductCallback(val block: (ProductUi) -> Unit) {
     /**
-     * Called when a video is clicked
+     * Called when a product is clicked
      *
-     * @param video the video that was clicked
+     * @param product the product that was clicked
      */
-    fun onClick(video: ProductUi) = block(video)
+    fun onClick(product: ProductUi) = block(product)
 }

@@ -15,7 +15,7 @@ class ResultsMapper @Inject constructor(
     private val sellerAddressCloudDataMapper: SellerAddressCloudDataMapper,
     private val attributesCloudDataMapper: AttributesCloudDataMapper,
     private val differentialPricingCloudDataMapper: DifferentialPricingCloudDataMapper
-){
+) {
     fun asDomainModel(resultsEntity: List<ResultsEntity>): List<Results> {
         return resultsEntity.map {
             Results(

@@ -3,7 +3,6 @@ package ar.com.mercadolibre.challenge.ui.activity
 import android.app.SearchManager
 import android.content.Context
 import android.os.Bundle
-import android.os.PersistableBundle
 import android.view.Menu
 import android.view.MenuItem
 import androidx.appcompat.widget.SearchView
@@ -16,7 +15,6 @@ class MainActivity : DaggerAppCompatActivity() {
     private var searchString: String? = ""
     private val SEARCH_KEY = "search"
     private lateinit var searchMenuItem: MenuItem
-
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
@@ -51,5 +49,4 @@ class MainActivity : DaggerAppCompatActivity() {
 
         return super.onCreateOptionsMenu(menu)
     }
-
 }

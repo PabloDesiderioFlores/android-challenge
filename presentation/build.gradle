@@ -48,11 +48,9 @@ dependencies {
     implementation presentationDependencies.cardView
 
     implementation presentationDependencies.lifeCycleExtension
-    implementation 'androidx.legacy:legacy-support-v4:1.0.0'
     kapt presentationDependencies.lifeCycleCompiler
     implementation presentationDependencies.lifeCycleReactiveStreams
     implementation presentationDependencies.lifeCycleCommonJava
-    implementation presentationDependencies.picasso
 
     implementation presentationDependencies.dagger
     implementation presentationDependencies.daggerAndroid
@@ -69,6 +67,7 @@ dependencies {
 
     implementation presentationDependencies.navigationFragment
     implementation presentationDependencies.navigationUi
+    implementation presentationDependencies.glide
 
     implementation presentationDependencies.retrofit
     implementation presentationDependencies.okHttp
@@ -76,9 +75,6 @@ dependencies {
     implementation presentationDependencies.gsonConverter
     implementation presentationDependencies.okHttpInterceptor
     implementation presentationDependencies.retrofitKotlinCoroutinesAdapter
-
-    // Glide
-    implementation "com.github.bumptech.glide:glide:4.8.0"
 
     testImplementation presentationTestDependencies.junit
     testImplementation presentationTestDependencies.mockito

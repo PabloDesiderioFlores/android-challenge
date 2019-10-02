@@ -13,7 +13,7 @@ import ar.com.mercadolibre.challenge.ui.model.ProductUi
 /**
  * Created by Pablo Flores on 01/10/19.
  */
-class SearchProductsAdapter(val callback: ProductCallback) :
+class SearchProductsAdapter(private val callback: ProductCallback) :
     RecyclerView.Adapter<ProductsViewHolder>() {
     var productUiList: List<ProductUi> = emptyList()
         set(value) {

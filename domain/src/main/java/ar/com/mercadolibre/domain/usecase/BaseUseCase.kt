@@ -7,7 +7,6 @@ import kotlin.coroutines.CoroutineContext
 /**
  * Created by Pablo Flores on 25/09/19.
  */
-
 typealias CompletionBlock<T> = BaseUseCase.Request<T>.() -> Unit
 
 abstract class BaseUseCase<T> {
@@ -36,14 +35,12 @@ abstract class BaseUseCase<T> {
         }
     }
 
-
     fun unsubscribe() {
         parentJob.apply {
             cancelChildren()
             cancel()
         }
     }
-
 
     class Request<T> {
         private var onComplete: ((T) -> Unit)? = null

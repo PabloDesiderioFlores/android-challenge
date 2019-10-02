@@ -20,7 +20,6 @@ import javax.inject.Singleton
         ActivityBindingModule::class, ContextModule::class]
 )
 interface ApplicationComponent : AndroidInjector<AndroidApplication> {
-
     @Component.Builder
     interface Builder {
         @BindsInstance

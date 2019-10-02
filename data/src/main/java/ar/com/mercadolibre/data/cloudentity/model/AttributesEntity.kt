@@ -1,7 +1,9 @@
 package ar.com.mercadolibre.data.cloudentity.model
 
+/**
+ * Created by Pablo Flores on 30/09/19.
+ */
 data class AttributesEntity(
-
     val id: String,
     val name: String,
     val value_id: Int,

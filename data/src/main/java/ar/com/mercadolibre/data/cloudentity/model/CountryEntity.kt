@@ -1,8 +1,9 @@
 package ar.com.mercadolibre.data.cloudentity.model
 
-
-data class CountryEntity (
-
-	val id : String,
-	val name : String
+/**
+ * Created by Pablo Flores on 26/09/19.
+ */
+data class CountryEntity(
+    val id: String,
+    val name: String
 )
