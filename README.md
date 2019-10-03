@@ -20,6 +20,6 @@ AAC (ViewModel, LiveData, Room)
 * Lenguaje:
 kotlin
 
-
+![Android Challenge demo](demo/meli.gif)
 
 
